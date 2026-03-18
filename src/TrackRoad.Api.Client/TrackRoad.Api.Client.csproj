@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+
+		<PackageId>TrackRoad.Api.Client</PackageId>
+		<Version>1.0.0</Version>
+
+		<Title>TrackRoad API Client</Title>
+		<Authors>TrackRoad.com</Authors>
+		<Company>ADOC</Company>
+
+		<Description>
+			Official .NET client for the TrackRoad REST API. Provides route optimization, multi-vehicle dispatching, geocoding, routing, and distance calculations for logistics, delivery, and field service applications.
+		</Description>
+
+		<PackageTags>
+			trackroad route-optimization routing dispatch logistics delivery vrp geocoding distance api client dotnet
+		</PackageTags>
+
+		<RepositoryUrl>https://github.com/YOUR_ACCOUNT/TrackRoad.Api</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+
+		<PackageProjectUrl>https://trackroad.com/</PackageProjectUrl>
+
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<PackageIcon>icon.png</PackageIcon>
+
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />		
+		<None Include="icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
