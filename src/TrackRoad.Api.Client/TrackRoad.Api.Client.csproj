@@ -17,7 +17,7 @@
 			trackroad route-optimization routing dispatch logistics delivery vrp geocoding distance api client dotnet
 		</PackageTags>
 
-		<RepositoryUrl>https://github.com/rdrunnerxx/TrackRoad.Api</RepositoryUrl>
+		<RepositoryUrl>https://github.com/rdrunnerxx/TrackRoad</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 
 		<PackageProjectUrl>https://trackroad.com/</PackageProjectUrl>
