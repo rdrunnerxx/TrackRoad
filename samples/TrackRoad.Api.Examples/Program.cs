@@ -99,7 +99,7 @@ static async Task RunDispatchExampleAsync()
 
     using var httpClient = new HttpClient();
     var client = new TrackRoadClient(httpClient);
-    var apiKey = "YOUR_API_KEY";//var apiKey = "YOUR_API_KEY";
+    var apiKey = "YOUR_API_KEY";
 
     // This is the most common starting point.
     // One vehicle is supplied, so Dispatch acts like a route optimizer for that vehicle.
@@ -196,7 +196,7 @@ static async Task RunDispatchExampleTimeWindowAsync()
 
     using var httpClient = new HttpClient();
     var client = new TrackRoadClient(httpClient);
-    var apiKey = "YOUR_API_KEY";//var apiKey = "YOUR_API_KEY";
+    var apiKey = "YOUR_API_KEY";
     var now = DateTime.UtcNow;
 
     // Time windows are useful for delivery appointments and service calls.
@@ -306,7 +306,7 @@ static async Task RunDispatchStopsOnlyExampleAsync()
 
     using var httpClient = new HttpClient();
     var client = new TrackRoadClient(httpClient);
-    var apiKey = "YOUR_API_KEY";//var apiKey = "YOUR_API_KEY";
+    var apiKey = "YOUR_API_KEY";
 
     // Vehicles are optional.
     // You can send only stops and let TrackRoad optimize the stop sequence.
